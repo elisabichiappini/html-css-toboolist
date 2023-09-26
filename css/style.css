@@ -20,6 +20,40 @@ h1 {
     font-size: 48px;
 }
 
-header{
+header {
     padding: 10px;
+}
+
+main {
+    background-color: rgb(192, 195, 195);
+    padding: 50px 0px 3px;
+}
+
+.container {
+    width: 800px;
+    margin: auto;
+    background-color: rgb(255, 255, 255); 
+    padding: 15px 70px 10px;
+    border-radius: 3px;
+}
+
+.button {
+    text-align: center;
+    border-radius: 4px;
+    width: 90px;
+    height: 35px;
+}
+
+.add {
+    background-color: rgb(48, 127, 217);
+    color: white;
+    border: none;
+}
+
+.section {
+    background-color: white;
+    color: rgb(207, 207, 207);
+    border-color: rgb(207, 207, 207);
+    border-style: solid;
+    margin-left: 3px;
 }
