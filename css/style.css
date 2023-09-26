@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+#logo {
+    width: 100px;
+    height: 100px;
+    vertical-align: middle;
+}
+
+h1 {
+    display: inline-block;
+    vertical-align: middle;
+    font-family: 'Roboto', sans-serif;
+    font-size: 48px;
+}
+
+header{
+    padding: 10px;
+}
