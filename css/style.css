@@ -25,13 +25,16 @@ header {
 }
 
 main {
-    background-color: rgb(192, 195, 195);
+    background-color: rgb(227, 227, 227);
     padding: 50px 0px 3px;
 }
 
+#box-containers {
+    padding-bottom: 10px;
+}
 .container {
-    width: 800px;
-    margin: auto;
+    width: 1100px;
+    margin: 3px auto;
     background-color: rgb(255, 255, 255); 
     padding: 15px 70px 10px;
     border-radius: 3px;
@@ -55,5 +58,35 @@ main {
     color: rgb(207, 207, 207);
     border-color: rgb(207, 207, 207);
     border-style: solid;
-    margin-left: 3px;
+
 }
+
+.element {
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    background-color: rgb(255, 255, 255);
+    vertical-align: middle;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 16px;
+    font-size: 10px;
+    margin: 10px 10px;
+}
+
+.check {
+    border: 1.5px solid rgb(53, 177, 68);
+    color: rgb(53, 177, 68);
+}
+
+.cross {
+    border: 1.5px solid rgb(224, 65, 65);
+    color: rgb(224, 65, 65);
+}
+
+
+ul {
+    list-style: none;
+    margin-top: 10px;
+    margin-left: -50px;
+    }
