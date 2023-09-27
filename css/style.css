@@ -38,7 +38,7 @@ header {
 
 /* 
 ---------------
-Main
+Main: container bottoni
 ---------------
 */
 
@@ -59,10 +59,17 @@ main {
 }
 
 .button {
+/* all: unset
+il button toglie lo scudo di formattazinoe 
+del font arial di default e prende quello 
+del body perchè diversamente non lo eredita */
+    all: unset;
     text-align: center;
     border-radius: 4px;
     width: 90px;
     height: 35px;
+/* cursore a pugnetto */
+    cursor: pointer;
 }
 
 .add {
@@ -70,6 +77,12 @@ main {
     color: white;
     border: none;
 }
+
+/* 
+---------------
+Main: container list
+---------------
+*/
 
 .section {
     background-color: white;
@@ -107,7 +120,7 @@ ul {
     list-style: none;
     margin-top: 10px;
     margin-left: -50px;
-    }
+}
 
 .label{
     text-align: center;
