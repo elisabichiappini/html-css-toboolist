@@ -100,6 +100,7 @@ Main: container list
     vertical-align: middle;
     border-radius: 50%;
     text-align: center;
+/* ho messo 16px e non 18px per correzione ottica */
     line-height: 16px;
     font-size: 10px;
     margin: 10px 10px;
