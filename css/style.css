@@ -8,11 +8,11 @@ Regola generale
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-
 }
 
 body {
     font-family: 'Roboto', sans-serif;
+    color: #434851;
     background-color: rgb(230, 234, 237);
 }
 
@@ -64,24 +64,21 @@ del body perchè diversamente non lo eredita */
     all: unset;
     text-align: center;
     border-radius: 4px;
-    width: 90px;
-    height: 35px;
+    padding: 8px 16px;
 /* cursore a pugnetto */
     cursor: pointer;
 }
 
 .add {
     background-color: rgb(48, 127, 217);
+    border: 2px solid rgb(48, 127, 217);
     color: white;
-    border: none;
 }
 
 .section {
     background-color: white;
+    border: 2px solid rgb(207, 207, 207);
     color: rgb(207, 207, 207);
-    border-color: rgb(207, 207, 207);
-    border-style: solid;
-    margin-left: 4px;
 }
 
 /* 
@@ -91,9 +88,10 @@ Main: contenuto lista
 */
 
 h2::before {
-    content: '\25bc';
-    font-size: 12px;
+    content: '\25be';
+    font-size: 20px;
     vertical-align: middle;   
+    display: inline-block;
 }
 
 h2 {
@@ -101,36 +99,40 @@ h2 {
 }
 
 .check::before {
-    content: '\vvvvvvvvv';
+    content: '\2713';
     border: 1.5px solid rgb(53, 177, 68);
     color: rgb(53, 177, 68);
-    /* vertical-align: middle; */
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 16px;
+    font-size: 10px;
+    margin: 8px 8px 8px 0;
+
+    vertical-align: middle;
 }
 
 .cross::before {
-    content: '\xxxxxxx';
-    border: 1.5px solid rgb(224, 65, 65);
-    color: rgb(224, 65, 65);
-    /* vertical-align: middle; */
+    content: '\2717';
+    border: 1.5px solid #ff1010;
+    color: #ff1010;
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 16px;
+    font-size: 10px;
+    margin: 8px 8px 8px 0;
+    vertical-align: middle;
 }
 
 ul {
     list-style: none;
-    margin-top: 16px;
+    margin-top: 8px;
     vertical-align: middle;
-}
-
-.element {
-    display: inline-block;
-    width: 24px;
-    height: 24px;
-    background-color: rgb(73, 39, 39);
-    vertical-align: middle;
-    border-radius: 50%;
-    text-align: center;
-    line-height: 24px;
-    font-size: 10px;
-    margin: 8px 16px 8px 0;
 }
 
 /* 
